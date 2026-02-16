@@ -1,0 +1,82 @@
+# --- Compiled Object Files & Dependency Files ---
+*.o
+*.obj
+*.d
+*.ko
+*.elf
+
+# --- Executables & Binaries ---
+*.exe
+*.out
+*.app
+*.bin
+*.dll
+*.so
+*.dylib
+
+# --- Libraries (Static & Dynamic) ---
+*.lib
+*.a
+*.la
+*.lai
+*.lo
+
+# --- Build Directories ---
+# Common names for build folders
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# --- CMake Build Artifacts ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+!CMakeLists.txt  # Keep the main CMake script!
+
+# --- Makefiles (Auto-generated) ---
+# Only ignore if you generate them via CMake/Autotools. 
+# If you write Makefiles manually, comment this out!
+# Makefile
+# *.mk
+
+# --- Debugging Files ---
+*.pdb
+*.idb
+*.ilk
+*.map
+*.dSYM/
+
+# --- IDE & Editor Settings ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+
+# JetBrains (CLion)
+.idea/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# --- OS Specific System Files ---
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
